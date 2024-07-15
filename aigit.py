@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
-
+#load_dotenv('.env')
 
 
 def generate_html_from_json(response_dict):
