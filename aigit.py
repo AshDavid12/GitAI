@@ -76,7 +76,6 @@ def generate_html_from_json(response_dict):
     </body>
     </html>
     """
-    return html_content
 
 
 
