@@ -11,7 +11,7 @@ import json
 from dotenv import load_dotenv
 
 
-load_dotenv('.env')
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
 
 
